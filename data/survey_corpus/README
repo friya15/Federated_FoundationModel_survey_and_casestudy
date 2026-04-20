@@ -4,8 +4,6 @@ This folder contains the structured survey corpus used in our paper.
 
 ## Files
 - `survey_papers_160.csv` — main CSV dataset
-- `survey_papers_160.xlsx` — spreadsheet version
-- `survey_corpus_builder_160.py` — script used to build the dataset
 
 ## Notes
 - `ref_no` matches the citation numbering in the paper.
