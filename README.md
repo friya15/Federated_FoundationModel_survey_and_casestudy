@@ -1,5 +1,8 @@
 # Federated_FoundationModel_survey_and_casestudy
 
+<img width="785" height="649" alt="framework" src="https://github.com/user-attachments/assets/cfe6ed3a-2211-4bab-b8b4-4dff18ab6246" />
+
+
 # FM-FL Privacy Artifacts
 
 This repository contains the artifacts for our paper on privacy in federated learning and foundation model systems.
