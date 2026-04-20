@@ -1,0 +1,161 @@
+﻿cite,title,year,venue,paradigm,stage,paper_role,privacy_notion,attack_or_defense,modality,threat_model,assumptions,used_in_figure2,used_in_taxonomy,notes
+1,Language models are few-shot learners,2020,NeurIPS,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,no,no,case-study support reference
+2,An image is worth 16x16 words: Transformers for image recognition at scale,2021,ICLR,FM,NA,dataset/model,NA,dataset/model,vision,NA,case-study support reference,no,no,case-study support reference
+3,Large language models encode clinical knowledge,2023,,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,no,no,case-study support reference
+4,Fingpt: Open-source financial large language models,2023,arXiv,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,no,no,case-study support reference
+5,Communication-efficient learning of deep networks from decentralized data,2017,,FL,NA,system,NA,system,NA,NA,system design creates privacy surface,no,no,
+6,The future of digital health with federated learning,2020,npj Digital Medicine,FL,NA,system,NA,system,mixed,NA,system design creates privacy surface,no,no,
+7,Federated learning for healthcare: Systematic review and architecture proposal,2022,ACM TIST,FL,NA,survey,multi,survey,mixed,NA,survey/reference taxonomy,no,no,survey landscape / framing
+8,Federated learning: Opportunities and challenges,2021,arXiv,FL,NA,system,NA,system,mixed,NA,system design creates privacy surface,no,no,
+9,Fedhealth: A federated transfer learning framework for wearable healthcare,2020,,FL,NA,system,NA,system,NA,NA,system design creates privacy surface,no,no,
+10,Federated learning in medicine: facilitating multi-institutional collaborations without sharing patient data,2020,"medicine: facilitating multi-institutional collaborations without sharing patient data,"" Scientific Reports",FL,NA,system,NA,system,mixed,NA,system design creates privacy surface,no,no,
+11,Fed-rd: Privacy-preserving federated learning for financial crime detection,2024,IEEE CIFEr,FL,NA,defense,multi,defense,tabular,NA,mitigation/evaluation setting,no,no,
+12,Ffd: A federated learning based method for credit card fraud detection,2019,International Conference on Big Data,FL,NA,system,NA,system,tabular,NA,system design creates privacy surface,no,no,
+13,Starlit: Privacy-preserving federated learning to enhance financial fraud detection,2025,FLTA,FL,NA,defense,multi,defense,tabular,NA,mitigation/evaluation setting,no,no,
+14,Federated learning for medical image analysis: A survey,2024,Pattern Recognition,FL,NA,survey,multi,survey,mixed;vision,NA,survey/reference taxonomy,no,no,survey landscape / framing
+15,A systematic review on federated learning in medical image analysis,2023,IEEE Access,FL,NA,survey,multi,survey,mixed;vision,NA,survey/reference taxonomy,no,no,survey landscape / framing
+16,Efficient and secure federated learning for financial applications,2023,,FL,NA,system,NA,system,tabular,NA,system design creates privacy surface,no,no,
+17,Federated foundation models: Privacy-preserving and collaborative learning for large models,2024,LREC-COLING 2024,FL∩FM,"U,D",system,NA,system,mixed;text,NA,cross-stage FM reuse; system design creates privacy surface,yes,yes,intersection paper
+18,"Position paper: Assessing robustness, privacy, and fairness in federated learning integrated with foundation models",2025,ICCV,FL∩FM,"U,D",theory,NA,theory,mixed;text,NA,conceptual/theoretical framing,yes,yes,intersection paper
+19,Federated foundation models on heterogeneous time series,2025,AAAI,FL∩FM,U,system,NA,system,time_series,NA,per-round communicated updates; system design creates privacy surface,no,yes,intersection paper
+20,Time-ffm: Towards lmempowered federated foundation models for time series forecasting,2024,NeurIPS,FL∩FM,U,system,NA,system,text;time_series,NA,per-round communicated updates; system design creates privacy surface,no,yes,intersection paper
+21,Fedpft: federated proxy fine-tuning of foundation models,2024,IJCAI 2024,FL∩FM,D,system,NA,system,NA,NA,reused pretrained or inherited FM; system design creates privacy surface,no,yes,intersection paper
+22,Federated generative learning with foundation models,2023,arXiv,FL∩FM,U,system,NA,system,NA,NA,per-round communicated updates; system design creates privacy surface,no,yes,intersection paper
+23,Extracting training data from large language models,2021,USENIX Security,FM,NA,attack,inference_time,attack,text,C,query/output access,yes,no,
+24,Privacy risks of general-purpose language models,2020,IEEE S&P,FM,NA,attack,attribute,attack,text,C,representation-level signal,yes,no,
+25,Deep leakage from gradients,2019,NeurIPS,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+26,Inverting gradients-how easy is it to break privacy in federated learning?,2020,NeurIPS,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+27,Do gradient inversion attacks make federated learning unsafe?,2023,IEEE TMI,FL,NA,attack,reconstruction,attack,vision,A,artifact visibility sufficient for reconstruction,yes,no,
+28,Decepticons: Corrupted transformers breach privacy in federated learning for language models,2023,ICLR,FL∩FM,U,attack,reconstruction,attack,text,A,per-round communicated updates; artifact visibility sufficient for reconstruction,yes,yes,intersection paper
+29,Privacy in deep learning: A survey,2022,ACM Computing Surveys,FL,NA,survey,multi,survey,mixed,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+30,Ten challenging problems in federated foundation models,2025,IEEE TKDE,FL∩FM,"U,D",survey,multi,survey,mixed,NA,survey/reference taxonomy,yes,yes,survey landscape / framing
+31,Privacy and robustness in federated learning: Attacks and defenses,2022,IEEE TNNLS,FL,NA,survey,multi,survey,mixed,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+32,Rofl: Robustness of secure federated learning,2023,IEEE S&P,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,no,no,
+33,How to backdoor federated learning,2020,International Conference on Artificial Intelligence and Statistics,FL,NA,attack,backdoor_privacy,attack,NA,D,compromised or manipulated artifact,no,no,
+34,Unveiling backdoor risks brought by foundation models in heterogeneous federated learning,2024,,FL∩FM,D,background,backdoor_privacy,neither,NA,D,background/reference paper,yes,yes,background reference
+35,Peft-as-an-attack! jailbreaking language models during federated parameter-efficient fine-tuning,2024,arXiv,FL∩FM,U,attack,backdoor_privacy,attack,text,D,per-round communicated updates; compromised or manipulated artifact,yes,yes,intersection paper
+36,Auditing data provenance in textgeneration models,2019,"textgeneration models,"" in KDD",FM,NA,attack,provenance,attack,text,NA,general,yes,no,
+37,Emerging safety attack and defense in federated instruction tuning of large language models,2024,arXiv,FL∩FM,U,system,backdoor_privacy,system,text,D,per-round communicated updates; compromised or manipulated artifact; system design creates privacy surface,yes,yes,intersection paper
+38,Advances and open problems in federated learning,2021,Foundations and Trends in Machine Learning,FL,NA,survey,multi,survey,mixed,NA,survey/reference taxonomy,no,no,survey landscape / framing
+39,Threats to federated learning: A survey,2020,IEEE TNNLS,FL,NA,survey,multi,survey,mixed,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+40,"The federation strikes back: A survey of federated learning privacy attacks, defenses, applications, and policy landscape",2025,ACM Computing Surveys,FL,NA,survey,multi,survey,mixed,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+41,On the opportunities and risks of foundation models,2021,arXiv,FM,NA,system,NA,system,mixed,NA,system design creates privacy surface,yes,no,
+42,Privacy issues in large language models: A survey,2023,arXiv,FM,NA,survey,multi,survey,text,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+43,"A survey on large language model (llm) security and privacy: The good, the bad, and the ugly",2024,High-Confidence Computing,FM,NA,survey,multi,survey,text,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+44,Preserving privacy in large language models: A survey on current threats and solutions,2025,TMLR,FM,NA,survey,multi,survey,text,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+45,A survey on privacy risks and protection in large language models,2025,arXiv,FM,NA,survey,multi,survey,text,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+46,"When foundation model meets federated learning: Motivations, challenges, and future directions",2023,arXiv,FL∩FM,"U,D",survey,multi,survey,mixed,NA,survey/reference taxonomy,yes,yes,survey landscape / framing
+47,Integration of large language models and federated learning,2024,arXiv,FL∩FM,"U,D",survey,multi,survey,mixed;text,NA,survey/reference taxonomy,yes,yes,survey landscape / framing
+48,"Federated large language model: Solutions, challenges and future directions",2024,IEEE Wireless Communications,FL∩FM,"U,D",survey,multi,survey,mixed;text,NA,survey/reference taxonomy,yes,yes,survey landscape / framing
+49,Federated large language models: Current progress and future directions,2024,arXiv,FL∩FM,"U,D",survey,multi,survey,mixed;text,NA,survey/reference taxonomy,yes,yes,survey landscape / framing
+50,A survey on federated fine-tuning of large language models,2025,arXiv,FL∩FM,"U,D",survey,multi,survey,mixed;text,NA,survey/reference taxonomy,yes,yes,survey landscape / framing
+51,Advances and open challenges in federated foundation models,2026,IEEE Communications Surveys & Tutorials,FL∩FM,"U,D",survey,multi,survey,mixed,NA,survey/reference taxonomy,yes,yes,survey landscape / framing
+52,When the curious abandon honesty: Federated learning is not private,2023,EuroS&P,FL,NA,attack,NA,attack,NA,NA,general,no,no,
+53,Panning for gold in federated learning: Targeted text extraction under arbitrarily large-scale aggregation,2023,ICLR,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,no,no,
+54,Federated learning and privacy: Building privacy-preserving systems for machine learning and data science on decentralized data,2021,Queue,FL,NA,survey,multi,survey,mixed,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+55,Privacy backdoors: Enhancing membership inference through poisoning pre-trained models,2024,NeurIPS,FM,NA,attack,backdoor_privacy;membership,attack,text,C,member/non-member distinguishability; compromised or manipulated artifact,no,no,
+56,Analysis of privacy leakage in federated large language models,2024,AISTATS,FL∩FM,U,attack,NA,attack,text,C,per-round communicated updates,yes,yes,intersection paper
+57,Differentially private low-rank adaptation of large language model using federated learning,2025,ACM TMIS,FL∩FM,U,defense,multi,defense,text,NA,per-round communicated updates; mitigation/evaluation setting,yes,yes,intersection paper
+58,Deep models under the gan: Information leakage from collaborative deep learning,2017,CCS,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+59,Differentially private federated learning: A client level perspective,2017,arXiv,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,yes,no,
+60,Membership inference attacks against machine learning models,2017,IEEE S&P,FL,NA,attack,membership,attack,NA,NA,member/non-member distinguishability,yes,no,
+61,Learning differentially private recurrent language models,2018,ICLR,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,yes,no,
+62,Exploiting unintended feature leakage in collaborative learning,2019,IEEE S&P,FL,NA,attack,NA,attack,NA,NA,general,yes,no,
+63,Comprehensive privacy analysis of deep learning,2019,IEEE S&P,FL,NA,attack,NA,attack,NA,NA,general,yes,no,
+64,idlg: Improved deep leakage from gradients,2020,arXiv,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+65,Quality inference in federated learning with secure aggregation,2020,IEEE Transactions on Big Data,FL,NA,attack,attribute,attack,NA,NA,representation-level signal,yes,no,
+66,Ldp-fed: federated learning with local differential privacy,2020,ACM EdgeSys,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,yes,no,
+67,Evaluating gradient inversion attacks and defenses in federated learning,2021,NeurIPS,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+68,Gradient inversion with generative image prior,2021,NeurIPS,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+69,Soteria: Provable defense against privacy leakage in federated learning,2021,CVPR,FL,NA,defense,multi,defense,vision,NA,mitigation/evaluation setting,yes,no,
+70,Federated f-differential privacy,2021,AISTATS,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,yes,no,
+71,See through gradients: Image batch recovery via gradinversion,2021,CVPR,FL,NA,attack,reconstruction,attack,vision,A,artifact visibility sufficient for reconstruction,yes,no,
+72,Auditing privacy defenses in federated learning via generative gradient leakage,2022,CVPR,FL,NA,defense,reconstruction,defense,NA,A,artifact visibility sufficient for reconstruction; mitigation/evaluation setting,yes,no,
+73,On privacy and personalization in cross-silo federated learning,2022,NeurIPS,FL,NA,attack,attribute;silo_identity,attack,NA,NA,distributional or client-level signatures; representation-level signal,yes,no,
+74,Local differential privacy for federated learning,2022,ESORICS,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,yes,no,
+75,Recovering private text in federated learning of language models,2022,NeurIPS,FL∩FM,U,attack,reconstruction,attack,text,A,per-round communicated updates; artifact visibility sufficient for reconstruction,yes,yes,intersection paper
+76,Effective passive membership inference attacks in federated learning against overparameterized models,2023,ICLR,FL,NA,attack,membership,attack,NA,C,member/non-member distinguishability,yes,no,
+77,Active membership inference attack under local differential privacy in federated learning,2023,AISTATS,FL,NA,attack,membership,attack,NA,C,member/non-member distinguishability,yes,no,
+78,Securing secure aggregation: Mitigating multi-round privacy leakage in federated learning,2023,AAAI,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,yes,no,
+79,Loki: Large-scale data reconstruction attack against federated learning through model manipulation,2024,IEEE S&P,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+80,Efficient privacy auditing in federated learning,2024,USENIX Security,FL,NA,attack,attribute,attack,NA,C,representation-level signal,yes,no,
+81,Defending against data reconstruction attacks in federated learning: An information theory approach,2024,USENIX Security,FL,NA,defense,multi,defense,vision,NA,mitigation/evaluation setting,yes,no,
+82,Spear: Exact gradient inversion of batches in federated learning,2024,NeurIPS,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+83,Mutual gradient inversion: Unveiling privacy risks of federated learning on multi-modal signals,2024,IEEE Signal Processing Letters,FL,NA,attack,attribute;reconstruction,attack,multimodal;vision,A,artifact visibility sufficient for reconstruction; representation-level signal,yes,no,
+84,Fedmia: An effective membership inference attack exploiting,2025,CVPR,FL,NA,attack,membership,attack,NA,B,member/non-member distinguishability,yes,no,
+85,SoK: Gradient inversion attacks in federated learning,2025,USENIX Security,FL,NA,survey,reconstruction,survey,NA,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+86,SoK: on gradient leakage in federated learning,2025,USENIX Security,FL,NA,survey,reconstruction,survey,NA,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+87,Spear++: Scaling gradient inversion via sparsely-used dictionary learning,2025,NeurIPS Workshop,FL,NA,attack,reconstruction,attack,NA,A,artifact visibility sufficient for reconstruction,yes,no,
+88,Refiner: Data refining against gradient leakage attacks in federated learning,2025,USENIX Security,FL,NA,defense,reconstruction,defense,NA,NA,artifact visibility sufficient for reconstruction; mitigation/evaluation setting,yes,no,
+89,Deduplicating training data mitigates privacy risks in language models,2022,ICML,FM,NA,defense,provenance,defense,text,NA,mitigation/evaluation setting,yes,no,
+90,Canary extraction in natural language understanding models,2022,ACL,FM,NA,attack,provenance,attack,text,B,general,yes,no,
+91,Membership inference attacks against language models via neighbourhood comparison,2023,ACL Findings,FM,NA,attack,membership,attack,text,C,member/non-member distinguishability,yes,no,
+92,Multi-step jailbreaking privacy attacks on chatgpt,2023,EMNLP Findings,FM,NA,attack,inference_time,attack,text,C,query/output access,yes,no,
+93,Privacy issues in large language models: A survey,2023,arXiv,FM,NA,survey,multi,survey,text,NA,survey/reference taxonomy,yes,no,survey landscape / framing
+94,Llama: Open and efficient foundation language models,2023,arXiv,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,yes,no,case-study support reference
+95,Precurious: How innocent pretrained language models turn into privacy traps,2024,CCS,FM,NA,attack,membership,attack,text,C,member/non-member distinguishability,yes,no,
+96,Membership inference attacks against fine-tuned large language models via selfprompt calibration,2024,NeurIPS,FM,NA,attack,membership,attack,text,C,member/non-member distinguishability,yes,no,
+97,Llm dataset inference: Did you train on my dataset?,2024,NeurIPS,FM,NA,attack,inference_time;provenance,attack,text,B,query/output access,yes,no,
+98,Membership inference attacks against large vision-language models,2024,NeurIPS,FM,NA,attack,membership,attack,multimodal;vision,C,member/non-member distinguishability,yes,no,
+99,Risks when sharing lora fine-tuned diffusion model weights,2024,arXiv,FM,NA,attack,membership,attack,NA,B,member/non-member distinguishability,yes,no,
+100,Loraleak: Membership inference attacks against lora fine-tuned language models,2025,arXiv,FM,NA,attack,membership,attack,text,B,member/non-member distinguishability,yes,no,
+101,Simple yet effective: Extracting private data across clients in federated fine-tuning of large language models,2025,IJCNLP-AACL,FL∩FM,D,attack,reconstruction,attack,text,A,reused pretrained or inherited FM; artifact visibility sufficient for reconstruction,yes,yes,intersection paper
+102,Gradient inversion attacks on parameter-efficient finetuning,2025,CVPR,FL∩FM,D,attack,reconstruction,attack,vision,A,reused pretrained or inherited FM; artifact visibility sufficient for reconstruction,yes,yes,intersection paper
+103,Prompt inversion attack against collaborative inference of large language models,2025,IEEE S&P,FM,NA,attack,attribute;inference_time,attack,text,B,query/output access; representation-level signal,no,no,
+104,Lamp: Extracting text from gradients with language model priors,2022,NeurIPS,FM,NA,attack,reconstruction,attack,text,A,artifact visibility sufficient for reconstruction,no,no,
+105,Fedpetuning: When federated learning meets the parameter-efficient tuning methods of pre-trained language models,2023,ACL 2023,FL∩FM,U,system,NA,system,text,NA,per-round communicated updates; system design creates privacy surface,yes,yes,intersection paper
+106,Backdoor threats from compromised foundation models to federated learning,2023,arXiv,FL∩FM,D,attack,backdoor_privacy,attack,NA,D,reused pretrained or inherited FM; compromised or manipulated artifact,yes,yes,intersection paper
+107,Fltrojan: Privacy leakage attacks against federated language models through selective weight tampering,2023,arXiv,FL∩FM,U,attack,reconstruction,attack,text,A,per-round communicated updates; artifact visibility sufficient for reconstruction,yes,yes,intersection paper
+108,Vulnerabilities of foundation model integrated federated learning under adversarial threats,2024,arXiv,FL∩FM,"U,D",system,backdoor_privacy,system,NA,D,cross-stage FM reuse; compromised or manipulated artifact; system design creates privacy surface,yes,yes,intersection paper
+109,Foundation models in federated learning: Assessing backdoor vulnerabilities,2024,IJCNN,FL∩FM,D,system,backdoor_privacy,system,NA,D,reused pretrained or inherited FM; compromised or manipulated artifact; system design creates privacy surface,yes,yes,intersection paper
+110,Enhancing privacy in multimodal federated learning with information theory,2025,NeurIPS,FL∩FM,D,defense,attribute,defense,multimodal;vision,NA,reused pretrained or inherited FM; representation-level signal; mitigation/evaluation setting,yes,yes,intersection paper
+111,Leveraging soft prompts for privacy attacks in federated prompt tuning,2026,arXiv,FL∩FM,D,attack,attribute,attack,text,C,reused pretrained or inherited FM; representation-level signal,yes,yes,intersection paper
+112,Federated learning from visionlanguage foundation models: Theoretical analysis and method,2024,NeurIPS,FL∩FM,D,theory,NA,theory,multimodal;vision,NA,conceptual/theoretical framing,no,yes,intersection paper
+113,Openfedllm: Training large language models on decentralized private data via federated learning,2024,KDD,FL∩FM,U,system,NA,system,text,NA,per-round communicated updates; system design creates privacy surface,no,yes,intersection paper
+114,Learning transferable visual models from natural language supervision,2021,ICML,FM,NA,dataset/model,NA,dataset/model,vision,NA,case-study support reference,no,no,case-study support reference
+115,Gpt-4 technical report,2023,arXiv,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,no,no,case-study support reference
+116,Palm: Scaling language modeling with pathways,2023,JMLR,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,no,no,case-study support reference
+117,Flamingo: a visual language model for few-shot learning,2022,NeurIPS,FM,NA,dataset/model,NA,dataset/model,multimodal;vision,NA,case-study support reference,no,no,case-study support reference
+118,Palme: An embodied multimodal language model,2023,ICML,FM,NA,dataset/model,NA,dataset/model,multimodal,NA,case-study support reference,no,no,case-study support reference
+119,Lora: Low-rank adaptation of large language models.,2022,ICLR,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,no,no,case-study support reference
+120,Promptfl: Let federated participants cooperatively learn prompts instead of models–federated learning in age of foundation model,2023,IEEE Transactions on Mobile Computing,FL∩FM,D,system,NA,system,NA,NA,reused pretrained or inherited FM; system design creates privacy surface,no,yes,intersection paper
+121,"Federated learning for medical applications: A taxonomy, current trends, challenges, and future research directions",2023,IEEE Internet of Things Journal,FL,NA,survey,multi,survey,mixed,NA,survey/reference taxonomy,no,no,survey landscape / framing
+122,Smart and collaborative industrial iot: A federated learning and data space approach,2023,Digital Communications and Networks,FL,NA,system,NA,system,mixed,NA,system design creates privacy surface,no,no,
+123,Federated learning of gboard language models with differential privacy,2023,ACL Industry Track,FL,NA,defense,multi,defense,text,NA,mitigation/evaluation setting,no,no,
+124,Taming vision-language models for federated foundation models on heterogeneous medical imaging modalities,2025,ICMR,FL∩FM,D,system,NA,system,multimodal;vision,NA,reused pretrained or inherited FM; system design creates privacy surface,no,yes,intersection paper
+125,Parameter-efficient transfer learning for nlp,2019,ICML,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,no,no,case-study support reference
+126,Difflora: Generating personalized low-rank adaptation weights with diffusion,2024,arXiv,FM,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+127,Fedcv: a federated learning framework for diverse computer vision tasks,2022,AAAI Workshop,FL,NA,system,NA,system,vision,NA,system design creates privacy surface,no,no,
+128,Flora: Federated fine-tuning large language models with heterogeneous lowrank adaptations,2024,NeurIPS,FL∩FM,D,system,NA,system,NA,NA,reused pretrained or inherited FM; system design creates privacy surface,no,yes,intersection paper
+129,Comparing retrieval-augmentation and parameter-efficient fine-tuning for privacy-preserving personalization of large language models,2025,ICTIR,FM,NA,system,NA,system,text,NA,system design creates privacy surface,no,no,
+130,Towards robust parameter-efficient fine-tuning for federated learning,2025,NeurIPS,FL∩FM,D,defense,multi,defense,NA,NA,reused pretrained or inherited FM; mitigation/evaluation setting,no,yes,intersection paper
+131,Image corruption-inspired membership inference attacks against large vision-language models,2026,arXiv,FM,NA,background,NA,neither,vision,NA,background/reference paper,yes,no,background reference
+132,Deep learning with differential privacy,2016,CCS,background,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+133,Differentially private fine-tuning of language models,2023,ICLR,FM,NA,background,NA,neither,text,NA,background/reference paper,no,no,background reference
+134,Privacypreserving personalized federated prompt learning for multimodal large language models,2025,ICLR,FL∩FM,D,defense,multi,defense,multimodal,NA,reused pretrained or inherited FM; mitigation/evaluation setting,yes,yes,intersection paper
+135,Differentially private federated low rank adaptation beyond fixed-matrix,2025,NeurIPS,FL∩FM,U,defense,multi,defense,NA,NA,per-round communicated updates; mitigation/evaluation setting,yes,yes,intersection paper
+136,Efficient secure aggregation for privacy-preserving federated machine learning,2024,ACSAC,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,no,no,
+137,Learning multiple layers of features from tiny images,2009,Technical Report,background,NA,dataset/model,NA,dataset/model,NA,NA,case-study support reference,no,no,case-study support reference
+138,The mnist database of handwritten digit images for machine learning research,2012,IEEE Signal Processing Magazine,background,NA,dataset/model,NA,dataset/model,NA,NA,case-study support reference,no,no,case-study support reference
+139,Tinyvit: Fast pretraining distillation for small vision transformers,2022,ECCV,background,NA,dataset/model,NA,dataset/model,vision,NA,case-study support reference,no,no,case-study support reference
+140,Privacy risk in machine learning: Analyzing the connection to overfitting,2018,IEEE CSF,background,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+141,Enhancing model privacy in federated learning with random masking and quantization,2025,Unknown,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,no,no,
+142,Rouge: A package for automatic evaluation of summaries,2004,Workshop Note,background,NA,dataset/model,NA,dataset/model,NA,NA,case-study support reference,no,no,case-study support reference
+143,Differentially private diffusion models,,TMLR,FM,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,no,no,
+144,Functional renyi differential privacy for generative modeling,2023,NeurIPS,FM,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+145,The unreasonable effectiveness of deep features as a perceptual metric,2018,CVPR,background,NA,dataset/model,NA,dataset/model,vision,NA,case-study support reference,no,no,case-study support reference
+146,The convergence of sparsified gradient methods,2018,NeurIPS,FL,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+147,Deep gradient compression: Reducing the communication bandwidth for distributed training,2017,arXiv,FL,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+148,Qsgd: Communication-efficient sgd via gradient quantization and encoding,2017,NeurIPS,FL,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+149,The algorithmic foundations of differential privacy,2014,Foundations and Trends in Theoretical Computer Science,background,NA,theory,NA,theory,NA,NA,conceptual/theoretical framing,no,no,
+150,Managing your private and public data: Bringing down inference attacks against your privacy,2015,IEEE Journal of Selected Topics in Signal Processing,background,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+151,Man is to computer programmer as woman is to homemaker? debiasing word embeddings,2016,NeurIPS,background,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+152,Flocks of stochastic parrots: Differentially private prompt learning for large language models,2023,NeurIPS,FM,NA,defense,multi,defense,text,NA,mitigation/evaluation setting,no,no,
+153,Certified robustness to adversarial examples with differential privacy,2018,arXiv,NA,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,no,no,
+154,Can you really backdoor federated learning?,2019,NeurIPS,FL,NA,attack,backdoor_privacy,attack,NA,D,compromised or manipulated artifact,no,no,
+155,Machine learning with adversaries: Byzantine tolerant gradient descent,2017,NeurIPS,FL,NA,background,NA,neither,NA,NA,background/reference paper,no,no,background reference
+156,An experimental study of byzantinerobust aggregation schemes in federated learning,2023,IEEE Transactions on Big Data,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,no,no,
+157,Byzantine-robust federated learning through collaborative malicious gradient filtering,2022,ICDCS,FL,NA,defense,multi,defense,NA,NA,mitigation/evaluation setting,no,no,
+158,Backdoor attacks-resilient aggregation based on robust filtering of outliers in federated learning for image classification,2022,Knowledge-Based Systems,FL,NA,defense,backdoor_privacy,defense,NA,D,compromised or manipulated artifact; mitigation/evaluation setting,no,no,
+159,Toward cleansing backdoored neural networks in federated learning,2022,ICDCS,FL,NA,defense,backdoor_privacy,defense,NA,D,compromised or manipulated artifact; mitigation/evaluation setting,no,no,
+160,Language models are unsupervised multitask learners,2019,OpenAI Report,FM,NA,dataset/model,NA,dataset/model,text,NA,case-study support reference,no,no,case-study support reference
